@@ -1,4 +1,4 @@
-<apex:page sidebar="false" showHeader="false" controller="HotelRemoter">
+<apex:page sidebar="false" showHeader="false" controller="HotelRemoter" title="Hotel Map" >
     <head>
         <style type="text/css">
         html {height:100%}
