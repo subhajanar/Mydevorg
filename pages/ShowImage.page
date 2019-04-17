@@ -1,0 +1,8 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false">
+    <apex:includeScript value="{!$Resource.vfimagetest}" />
+    <h3>
+        Image of Kitten
+    </h3>
+    <apex:image url="{!URLFOR($Resource.vfimagetest,'cats/kitten1.jpg')}" />
+    
+</apex:page>
